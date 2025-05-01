@@ -24,6 +24,8 @@ class ScoundrelGame
         }
 
         Console.WriteLine(playerHealth > 0 ? "Congratulations! You cleared the dungeon and escaped!" : "It seems you couldn't escape after all...");
+        Console.WriteLine("Press any key to exit...");
+        Console.ReadKey();
     }
 
     static void InitializeDeck()
